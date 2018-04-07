@@ -29,8 +29,9 @@ header {
     box-sizing: border-box;
 }
 
-#tabs a {
+a {
     text-decoration: none;
+    color: #4aaaa5;
 }
 
 #tabs {
@@ -43,7 +44,6 @@ header {
     margin-right: 30px;
     font-size: 18px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ h2 {
 }
 
 p {
-    line-height: 20px;
+    line-height: 1.5;
     font-size: 18px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-bottom: 15px;
@@ -225,5 +225,9 @@ input[type=submit]:hover {
 
 #tabs a:hover{
     color: #c51111;
+}
+
+#share:hover{
+    color: #237773;
 }
  
